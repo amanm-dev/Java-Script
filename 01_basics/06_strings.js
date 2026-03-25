@@ -17,9 +17,9 @@ let name = "Aman"
 // console.log(name);
 let rep = name.repeat(3)
 console.log(rep);
-const paragraph = "Aman 123 Mishra";
-const regex = /\d+/g;
-const found = paragraph.matchAll(regex);
+const paragraph = "Aman 123 Mishra 5485 G 476";
+const regex = /\d+/;
+const found = paragraph.match(regex);
 
 let x = 'd'
 let y = 'd'
