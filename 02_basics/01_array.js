@@ -1,4 +1,4 @@
-// node 02_basics/01_array.js
+// // node 02_basics/01_array.js
 const arr = [0,1,[2,[3]],4,5]
 const arr2 = new Array(10,20,30,40)
 // arr2.push(60)
@@ -17,10 +17,3 @@ const arr2 = new Array(10,20,30,40)
 // console.log(arr);
 // console.log(arr.flat(2));
 console.log(Array.from({leng: 3, 0:10, 1:20, 2:30}))
-
-
-
-
-
-
-
